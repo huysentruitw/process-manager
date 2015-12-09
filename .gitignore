@@ -1,0 +1,7 @@
+*.suo
+*.vshost.*
+**/bin/*
+**/obj/*
+*.exe
+packages/
+*.nupkg

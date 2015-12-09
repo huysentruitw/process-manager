@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{79FAF2E0-F3CB-483C-AC42-C026612F13E0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManager", "src\ProcessManager\ProcessManager.csproj", "{85A90937-B72C-4DCC-94CA-D0A100C8530D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9FCBC8CD-C530-4226-978C-85EC25321584}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E330E3D5-9BF8-44E6-80CE-FA63F8A7C407}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C9679C4E-BDE8-4CA2-895F-D97FD4BAD8E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85A90937-B72C-4DCC-94CA-D0A100C8530D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A90937-B72C-4DCC-94CA-D0A100C8530D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A90937-B72C-4DCC-94CA-D0A100C8530D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A90937-B72C-4DCC-94CA-D0A100C8530D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85A90937-B72C-4DCC-94CA-D0A100C8530D} = {9FCBC8CD-C530-4226-978C-85EC25321584}
+	EndGlobalSection
+EndGlobal

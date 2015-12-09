@@ -1,5 +1,7 @@
 # ProcessManager
 
+[![Build status](https://ci.appveyor.com/api/projects/status/ajvmvs3ha8sm8d8x/branch/master?svg=true)](https://ci.appveyor.com/project/huysentruitw/process-manager/branch/master)
+
 ## Overview
 
 ProcessManager is a managed (C#) library that can be used to queue and start processes like you would with `Process.Start()` but better. Maximum number of simultaneous processes can be configured, processes can be queued and events will notify your code when a process is started, finished or outputs data to standard output or standard error.

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.githubusercontent.com/huysentruitw/process-manager/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/huysentruitw/process-manager</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/huysentruitw/process-manager/master/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ProcessManager is a managed (C#) library that can be used to queue and start processes like you would with `Process.Start()` but better</description>
+    <copyright>Copyright 2015 Huysentruit</copyright>
+  </metadata>
+</package>

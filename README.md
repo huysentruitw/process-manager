@@ -8,6 +8,10 @@ ProcessManager is a managed (C#) library that can be used to queue and start pro
 
 This library is great for running lengthy, CPU intensive, tasks like image or video conversions.
 
+## Get it on NuGet
+
+    Install-Package ProcessManager
+
 ## Usage
 
 ```C#

@@ -25,7 +25,7 @@ namespace ProcessManager
     {
         internal ProcessEventArgs(ProcessInfo processInfo)
         {
-            this.ProcessInfo = processInfo;
+            ProcessInfo = processInfo;
         }
 
         /// <summary>

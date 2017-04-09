@@ -24,7 +24,7 @@ namespace ProcessManager
         internal ProcessDataReceivedEventArgs(ProcessInfo processInfo, string data)
             : base(processInfo)
         {
-            this.Data = data;
+            Data = data;
         }
 
         /// <summary>

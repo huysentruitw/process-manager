@@ -26,7 +26,7 @@ namespace ProcessManager
         internal ProcessFailedToStartEventArgs(ProcessInfo processInfo, Exception exception)
             : base(processInfo)
         {
-            this.Exception = exception;
+            Exception = exception;
         }
 
         /// <summary>

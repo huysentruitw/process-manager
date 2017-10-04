@@ -30,9 +30,9 @@ namespace ProcessManager
         /// <param name="arguments">The command-line arguments for the process.</param>
         public ProcessInfo(string fileName, string arguments)
         {
-            this.Key = Guid.NewGuid();
-            this.FileName = fileName;
-            this.Arguments = arguments;
+            Key = Guid.NewGuid();
+            FileName = fileName;
+            Arguments = arguments;
         }
 
         /// <summary>
@@ -64,7 +64,7 @@ namespace ProcessManager
         public ProcessInfo(string fileName, string arguments, T data)
             : base(fileName, arguments)
         {
-            this.Data = data;
+            Data = data;
         }
 
         /// <summary>
